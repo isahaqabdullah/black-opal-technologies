@@ -149,8 +149,8 @@ export function TechnologyHeader() {
                   {solutionsOpen ? (
                     <div className="tech-mega" id="tech-solutions-menu">
                       <div className="tech-mega-intro">
-                        <span className="tech-kicker">Independent specialist services</span>
-                        <p className="tech-display">Choose the capability that matches your project.</p>
+                        <span className="tech-kicker">Specialist expertise, integrated when it matters</span>
+                        <p className="tech-display">Choose focused expertise or a coordinated system for your project.</p>
                       </div>
                       <div className="tech-mega-links">
                         {solutionsNavigation.map((solution) => (

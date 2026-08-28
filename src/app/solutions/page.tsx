@@ -12,7 +12,7 @@ import {
 
 export const metadata = createPageMetadata({
   title: 'Technology Solutions',
-  description: 'Independent specialist services across network, fibre, ELV, security, software, automation and motorsport technology.',
+  description: 'Specialist expertise across network, fibre, ELV, security, software, automation and motorsport technology—integrated when projects need a connected system.',
   path: '/solutions',
 });
 

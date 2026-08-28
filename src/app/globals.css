@@ -684,7 +684,7 @@ body {
 .tech-home-hero-copy h1 {
   max-width: 50rem;
   margin-top: 1rem !important;
-  font-size: clamp(3.1rem, 6vw, 6.8rem);
+  font-size: clamp(3rem, 5.7vw, 6.4rem);
   line-height: 0.88;
   text-wrap: balance;
 }
@@ -1540,7 +1540,7 @@ body {
 
 .tech-page-title {
   margin-top: 0.9rem !important;
-  font-size: clamp(3rem, 5.6vw, 6.5rem);
+  font-size: clamp(2.85rem, 5.25vw, 6.1rem);
   line-height: 0.91;
 }
 
@@ -2825,7 +2825,7 @@ body {
   }
 
   .tech-home-hero-copy h1 {
-    font-size: clamp(2.9rem, 12vw, 5.1rem);
+    font-size: clamp(2.8rem, 11.5vw, 4.8rem);
   }
 
   .tech-home-hero-overlay {
@@ -2922,7 +2922,7 @@ body {
   }
 
   .tech-page-title {
-    font-size: clamp(2.75rem, 11vw, 5rem);
+    font-size: clamp(2.6rem, 10.25vw, 4.7rem);
   }
 
   .tech-service-overview-card {
@@ -2978,7 +2978,7 @@ body {
   }
 
   .tech-home-hero-copy h1 {
-    font-size: clamp(2.75rem, 14vw, 4.1rem);
+    font-size: clamp(2.65rem, 13vw, 3.9rem);
     line-height: 0.9;
   }
 
@@ -3097,7 +3097,7 @@ body {
   }
 
   .tech-page-title {
-    font-size: clamp(2.65rem, 13vw, 4.2rem);
+    font-size: clamp(2.5rem, 12vw, 3.95rem);
   }
 
   .tech-service-overview-card,

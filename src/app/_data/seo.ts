@@ -7,7 +7,7 @@ export const siteUrl = new URL(
 
 export const defaultTitle = 'Black Opal Technologies | Infrastructure, Security & Software';
 export const defaultDescription =
-  'Specialist services across network and fibre, ELV and security, custom software, automation and motorsport technology.';
+  'Specialist expertise across network and fibre, ELV and security, custom software, automation and motorsport technology—integrated when it matters.';
 
 type PageMetadataOptions = {
   title: string;

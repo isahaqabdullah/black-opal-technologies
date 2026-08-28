@@ -29,7 +29,7 @@ export function TechnologyFooter() {
         <div className="tech-footer-brand">
           <TechnologyLogo compact />
           <p>
-            Network and fibre, ELV and security, software, automation and motorsport technology—available as independent specialist services.
+            Network and fibre, ELV and security, software, automation and motorsport technology—available as focused expertise or one integrated system.
           </p>
           <TechnologyOfficeCard className="tech-footer-office" />
         </div>

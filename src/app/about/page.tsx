@@ -23,7 +23,7 @@ export default function AboutPage() {
       <PageHero
         label="About Black Opal Technologies"
         title="Technology should make the operation easier—not create another problem to manage"
-        description="We deliver specialist services across network infrastructure, security systems, software, automation and motorsport technology."
+        description="We deliver specialist expertise across network infrastructure, security systems, software, automation and motorsport technology—focused or integrated around the project."
         image={technologyImages.controlRoom}
         breadcrumbs={[{ label: 'About' }]}
       >

@@ -53,8 +53,8 @@ export function TechnologyHomePage() {
             </div>
           </div>
           <div className="tech-hero-system-note tech-reveal">
-            <span>Specialist services, independently delivered</span>
-            <strong>Choose one service or coordinate several when the project requires it</strong>
+            <span>Specialist expertise. Integrated when it matters.</span>
+            <strong>Choose focused expertise or combine capabilities into one coordinated system when it matters.</strong>
           </div>
         </div>
       </section>
@@ -70,8 +70,8 @@ export function TechnologyHomePage() {
       <section className="tech-section tech-capabilities-section">
         <div className="tech-shell">
           <SectionHeading
-            label="Specialist services"
-            title="Choose the capability your project needs"
+            label="Specialist expertise"
+            title="Choose the capability—or combination—your project needs"
             description="Each service can be engaged independently, with its own scope, delivery plan and support route."
           />
           <div className="tech-capability-grid">
