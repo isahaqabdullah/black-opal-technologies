@@ -34,11 +34,17 @@ export function TechnologyHomePage() {
         <div className="tech-shell tech-home-hero-inner">
           <div className="tech-home-hero-copy tech-reveal">
             <span className="tech-kicker">Black Opal Technologies</span>
-            <h1 className="tech-display">Technology services built for real operations</h1>
-            <p className="tech-hero-lede">
-              We design, deliver and support network and fibre infrastructure, ELV and security systems, custom software,
-              automation and specialist motorsport technology.
-            </p>
+            <h1 className="tech-display">Technology engineered for real-world performance</h1>
+            <div className="tech-hero-lede">
+              <p>
+                We design and develop high-performance websites, custom web applications, mobile apps, AI-powered solutions
+                and intelligent automation.
+              </p>
+              <p>
+                Our technology infrastructure expertise spans network and fibre systems, ELV and security solutions, and
+                specialist motorsport technologies—delivered as integrated, reliable and performance-driven solutions.
+              </p>
+            </div>
             <div className="tech-actions">
               <TechLink href={`${technologyBasePath}/solutions`}>Explore Our Solutions</TechLink>
               <TechLink href={`${technologyBasePath}/contact`} variant="secondary">
