@@ -34,7 +34,7 @@ export function TechnologyHomePage() {
         <div className="tech-shell tech-home-hero-inner">
           <div className="tech-home-hero-copy tech-reveal">
             <span className="tech-kicker">Black Opal Technologies</span>
-            <h1 className="tech-display">Technology engineered for real-world performance</h1>
+            <h1 className="tech-display">Technology engineered for real world performance</h1>
             <div className="tech-hero-lede">
               <p>
                 We design and develop high-performance websites, custom web applications, mobile apps, AI-powered solutions

@@ -8,7 +8,7 @@ const serviceLines = [
   { icon: Cable, number: '01', title: 'Network & Fibre', copy: 'Wired, wireless and fibre infrastructure designed, installed, tested and documented.' },
   { icon: ShieldCheck, number: '02', title: 'ELV & Security', copy: 'CCTV, access control, audio and monitoring systems delivered for clear operational use.' },
   { icon: Code2, number: '03', title: 'Software & Automation', copy: 'Applications, platforms and automations built around real workflows and information needs.' },
-  { icon: Flag, number: '04', title: 'Motorsport Technology', copy: 'Circuit connectivity, race operations, video, timing and driver-facing technology.' },
+  { icon: Flag, number: '04', title: 'Motorsport Technology', copy: 'Circuit connectivity, race control, monitoring, video and timing systems.' },
 ];
 
 export const metadata = createPageMetadata({

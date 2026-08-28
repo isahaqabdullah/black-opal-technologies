@@ -1,11 +1,11 @@
-import { Camera, Check, Flag, Gauge, RadioTower, Users } from 'lucide-react';
+import { Camera, Check, Gauge, RadioTower } from 'lucide-react';
 import { FinalCTA, ImagePanel, PageHero, SectionHeading, TechLink } from '../_components/Primitives';
 import { motorsportFeatures, technologyBasePath, technologyImages } from '../_data/site';
 import { createPageMetadata } from '../_data/seo';
 
 export const metadata = createPageMetadata({
   title: 'Motorsport Technology',
-  description: 'Circuit networks, race-control software, onboard video and timing integrations built for live motorsport operations.',
+  description: 'Circuit networks, race-control software, race monitoring, video systems and timing integrations built for live motorsport operations.',
   path: '/motorsport',
 });
 
@@ -17,22 +17,10 @@ const capabilityGroups = [
     items: ['Circuit fibre backbone', 'Trackside network infrastructure', 'Race-control connectivity', 'Venue Wi-Fi', 'CCTV and monitoring', 'Redundancy planning'],
   },
   {
-    id: 'race-operations',
-    icon: Flag,
-    title: 'Race Operations',
-    items: ['Race-control software', 'Incident and infringement management', 'Warnings and penalties', 'Operational dashboards', 'Multi-user workflows', 'Timing integrations'],
-  },
-  {
-    id: 'onboard-video',
+    id: 'race-monitoring-video-systems',
     icon: Camera,
-    title: 'Onboard Video',
-    items: ['POV camera integration', 'Automated video management', 'Network and upload workflows', 'Cloud storage', 'Driver access', 'Operational review tools'],
-  },
-  {
-    id: 'driver-technology',
-    icon: Users,
-    title: 'Driver Technology',
-    items: ['Driver profiles', 'Academy platforms', 'Performance data', 'Training workflows', 'AI-assisted coaching', 'Customer-facing applications'],
+    title: 'Race Monitoring and Video Systems',
+    items: ['Trackside and onboard camera integration', 'Live race monitoring', 'Race-control video wall feeds', 'Multi-camera recording and playback', 'Secure video storage and sharing', 'Incident review workflows'],
   },
 ];
 
@@ -41,8 +29,8 @@ export default function MotorsportPage() {
     <>
       <PageHero
         label="Motorsport Technology"
-        title="Technology built for the pressure of a live race operation"
-        description="We connect circuit infrastructure, race control, onboard video, timing and digital platforms so operators have reliable information when decisions cannot wait."
+        title="Mission-critical technology for live motorsport."
+        description="We integrate circuit infrastructure, race control, timing, race monitoring and video into one resilient ecosystem—giving officials the visibility and reliability needed when every second counts."
         image={technologyImages.hero}
         breadcrumbs={[{ label: 'Motorsport' }]}
       >
@@ -59,7 +47,7 @@ export default function MotorsportPage() {
               operational problem within seconds.
             </p>
             <p>
-              We plan the trackside network, race-control software, video, timing data and driver-facing tools together.
+              We plan the trackside network, race-control software, monitoring, video and timing data together.
               That means fewer blind spots, clearer handovers and technology that supports the race team instead of slowing it down.
             </p>
           </div>
@@ -68,7 +56,7 @@ export default function MotorsportPage() {
 
       <section className="tech-section tech-motorsport-capabilities">
         <div className="tech-shell">
-          <SectionHeading label="What we cover" title="From the trackside cabinet to the driver-facing platform" />
+          <SectionHeading label="What we cover" title="From the trackside cabinet to race-control visibility" />
           <div className="tech-motorsport-capability-grid">
             {capabilityGroups.map((group, index) => {
               const Icon = group.icon;
@@ -105,7 +93,7 @@ export default function MotorsportPage() {
 
       <section className="tech-section tech-operating-model-section">
         <div className="tech-shell">
-          <SectionHeading label="One operating plan" title="Every motorsport technology layer has a clear role" />
+          <SectionHeading label="One operating plan" title="Every motorsport system has a clear role" />
           <div className="tech-operating-model-grid">
             {motorsportFeatures.map((feature, index) => (
               <article className="tech-operating-model-card tech-reveal" key={feature.title}>
@@ -114,7 +102,7 @@ export default function MotorsportPage() {
             ))}
           </div>
           <div className="tech-callout tech-reveal">
-            <div><span className="tech-kicker">Where systems meet</span><h2 className="tech-display">Timing, cameras, networks and software work best when every interface has a clear owner.</h2></div>
+            <div><span className="tech-kicker">Where systems meet</span><h2 className="tech-display">Timing, race monitoring, networks and software work best when every interface has a clear owner.</h2></div>
             <TechLink href={`${technologyBasePath}/contact`} variant="secondary">Discuss a Motorsport System</TechLink>
           </div>
         </div>

@@ -214,7 +214,7 @@ export const capabilities: Capability[] = [
       'Timing integrations',
       'Onboard camera systems',
       'Driver video platforms',
-      'Race operations software',
+      'Race monitoring systems',
       'Data integration',
     ],
     ctaLabel: 'Explore Motorsport Technology',
@@ -250,8 +250,8 @@ export const typicalEngagements: TypicalEngagement[] = [
   },
   {
     title: 'Motorsport technology systems',
-    description: 'Deliver specialist infrastructure and digital tools for circuits, race operations and driver programmes.',
-    deliverables: ['Circuit connectivity', 'Race control', 'Timing and video', 'Driver platforms'],
+    description: 'Deliver specialist infrastructure and digital tools for circuits, race control and monitoring systems.',
+    deliverables: ['Circuit connectivity', 'Race control', 'Timing and video', 'Race monitoring'],
   },
 ];
 
@@ -308,16 +308,8 @@ export const motorsportFeatures = [
     description: 'Fibre, networking, Wi-Fi and trackside connectivity planned for venue-wide coverage and race-control continuity.',
   },
   {
-    title: 'Race Operations',
-    description: 'Clear tools for incidents, warnings, penalties and the people coordinating a live session.',
-  },
-  {
-    title: 'Onboard Video',
-    description: 'A practical route from the onboard camera to review, storage and secure driver access.',
-  },
-  {
-    title: 'Driver Technology',
-    description: 'Driver profiles, academy workflows and performance information brought into one usable platform.',
+    title: 'Race Monitoring and Video Systems',
+    description: 'Live video monitoring, recording, playback and review systems that give race control clear operational visibility.',
   },
 ];
 

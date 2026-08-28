@@ -19,9 +19,7 @@ const solutionLinks = [
 
 const motorsportLinks = [
   { label: 'Circuit Infrastructure', href: `${technologyBasePath}/motorsport#circuit-infrastructure` },
-  { label: 'Race Operations', href: `${technologyBasePath}/motorsport#race-operations` },
-  { label: 'Onboard Video', href: `${technologyBasePath}/motorsport#onboard-video` },
-  { label: 'Driver Technology', href: `${technologyBasePath}/motorsport#driver-technology` },
+  { label: 'Race Monitoring & Video', href: `${technologyBasePath}/motorsport#race-monitoring-video-systems` },
 ];
 
 export function TechnologyFooter() {
