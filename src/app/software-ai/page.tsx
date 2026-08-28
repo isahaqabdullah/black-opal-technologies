@@ -1,12 +1,13 @@
 import { Bot, Check, CloudCog, Code2, DatabaseZap, Workflow } from 'lucide-react';
-import type { Metadata } from 'next';
 import { FinalCTA, PageHero, SectionHeading, SystemGraphic, TechLink } from '../_components/Primitives';
 import { softwareCategories, technologyBasePath, websiteImages } from '../_data/site';
+import { createPageMetadata } from '../_data/seo';
 
-export const metadata: Metadata = {
-  title: 'Software & AI',
+export const metadata = createPageMetadata({
+  title: 'Software, AI & Automation',
   description: 'Custom software, workflow automation and carefully applied AI for teams with real operational work to improve.',
-};
+  path: '/software-ai',
+});
 
 const icons = [Code2, Bot, Workflow, DatabaseZap];
 

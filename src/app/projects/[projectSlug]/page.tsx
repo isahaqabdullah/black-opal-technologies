@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { projects, publishedProjectCaseStudies } from '../../_data/site';
+import { createPageMetadata } from '../../_data/seo';
 
 type ProjectPageProps = { params: Promise<{ projectSlug: string }> };
 
@@ -19,10 +20,11 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
     };
   }
 
-  return {
+  return createPageMetadata({
     title: project.title,
     description: project.summary,
-  };
+    path: `/projects/${project.slug}`,
+  });
 }
 
 export default async function ProjectDetailPage({ params }: ProjectPageProps) {

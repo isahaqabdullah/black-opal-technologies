@@ -16,5 +16,6 @@ Copy `.env.example` to `.env.local` and configure `RESEND_API_KEY`,
 enquiry delivery. Without those values, the form safely returns a configuration
 message and does not send email.
 
-Set `NEXT_PUBLIC_SITE_URL` to the production URL before deployment so metadata
-and social previews resolve to the live domain.
+Set `NEXT_PUBLIC_SITE_URL` when deploying to a different canonical domain.
+Otherwise metadata, social previews, `robots.txt` and `sitemap.xml` resolve to
+`https://blackopaltechnologies.com`.

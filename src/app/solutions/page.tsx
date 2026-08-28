@@ -1,6 +1,6 @@
 import { Cable, Check, CircuitBoard, Flag, Network, ShieldCheck } from 'lucide-react';
-import type { Metadata } from 'next';
 import { FinalCTA, PageHero, SectionHeading, SystemGraphic, TechLink } from '../_components/Primitives';
+import { createPageMetadata } from '../_data/seo';
 import {
   capabilities,
   deliveryProcess,
@@ -10,10 +10,11 @@ import {
   websiteImages,
 } from '../_data/site';
 
-export const metadata: Metadata = {
-  title: 'Solutions',
+export const metadata = createPageMetadata({
+  title: 'Technology Solutions',
   description: 'Independent specialist services across network, fibre, ELV, security, software, automation and motorsport technology.',
-};
+  path: '/solutions',
+});
 
 const icons = { network: Cable, elv: ShieldCheck, software: CircuitBoard, motorsport: Flag };
 

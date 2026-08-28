@@ -1,11 +1,12 @@
-import type { Metadata } from 'next';
 import { FinalCTA, PageHero, SectionHeading } from '../_components/Primitives';
 import { ProjectsFilter } from '../_components/ProjectsFilter';
+import { createPageMetadata } from '../_data/seo';
 
-export const metadata: Metadata = {
-  title: 'Projects',
+export const metadata = createPageMetadata({
+  title: 'Technology Projects',
   description: 'Examples of the operational systems Black Opal Technologies designs and delivers.',
-};
+  path: '/projects',
+});
 
 export default function ProjectsPage() {
   return (

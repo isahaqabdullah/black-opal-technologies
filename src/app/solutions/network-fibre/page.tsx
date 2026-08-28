@@ -1,12 +1,13 @@
 import { Check, Network, Router, Server, Wifi, Workflow } from 'lucide-react';
-import type { Metadata } from 'next';
 import { FinalCTA, ImagePanel, PageHero, SectionHeading, TechLink } from '../../_components/Primitives';
 import { technologyBasePath, technologyImages } from '../../_data/site';
+import { createPageMetadata } from '../../_data/seo';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: 'Network & Fibre Infrastructure',
   description: 'Wired, wireless and fibre networks planned, installed, tested and documented for dependable day-to-day use.',
-};
+  path: '/solutions/network-fibre',
+});
 
 const services = [
   { icon: Workflow, title: 'Fibre-Optic Infrastructure', copy: 'Backbones, pathways and terminations designed for today’s needs and sensible future expansion.' },

@@ -1,12 +1,13 @@
 import { BellRing, Camera, Check, DoorOpen, Radio, ShieldCheck, Volume2 } from 'lucide-react';
-import type { Metadata } from 'next';
 import { FinalCTA, ImagePanel, PageHero, SectionHeading, TechLink } from '../../_components/Primitives';
 import { technologyBasePath, technologyImages, websiteImages } from '../../_data/site';
+import { createPageMetadata } from '../../_data/seo';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: 'ELV & Security Systems',
   description: 'CCTV, access control, audio and monitoring designed around the way people operate and protect a facility.',
-};
+  path: '/solutions/elv-security',
+});
 
 const systems = [
   { icon: Camera, title: 'CCTV & Video', copy: 'Camera locations, recording and monitoring planned around what your team genuinely needs to see and review.' },

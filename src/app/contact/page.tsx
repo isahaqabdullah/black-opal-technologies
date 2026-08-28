@@ -1,13 +1,14 @@
 import { Check } from 'lucide-react';
-import type { Metadata } from 'next';
 import { ContactForm } from '../_components/ContactForm';
 import { TechnologyOfficeCard } from '../_components/TechnologyOfficeCard';
 import { PageHero, SectionHeading } from '../_components/Primitives';
+import { createPageMetadata } from '../_data/seo';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: 'Contact',
   description: 'Speak with Black Opal Technologies about network, fibre, security, software, automation, motorsport or systems-integration work.',
-};
+  path: '/contact',
+});
 
 export default function ContactPage() {
   return (

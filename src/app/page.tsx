@@ -1,11 +1,12 @@
-import type { Metadata } from 'next';
 import { TechnologyHomePage } from './_components/TechnologyHomePage';
+import { createPageMetadata, defaultDescription, defaultTitle } from './_data/seo';
 
-export const metadata: Metadata = {
-  title: 'Network, Security, Software & Motorsport Technology Services',
-  description:
-    'Independent specialist services across network and fibre, ELV and security, custom software, automation and motorsport technology.',
-};
+export const metadata = createPageMetadata({
+  title: defaultTitle,
+  description: defaultDescription,
+  path: '/',
+  absoluteTitle: true,
+});
 
 export default function TechnologyPage() {
   return <TechnologyHomePage />;

@@ -1,12 +1,13 @@
 import { Camera, Check, Flag, Gauge, RadioTower, Users } from 'lucide-react';
-import type { Metadata } from 'next';
 import { FinalCTA, ImagePanel, PageHero, SectionHeading, TechLink } from '../_components/Primitives';
 import { motorsportFeatures, technologyBasePath, technologyImages } from '../_data/site';
+import { createPageMetadata } from '../_data/seo';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: 'Motorsport Technology',
   description: 'Circuit networks, race-control software, onboard video and timing integrations built for live motorsport operations.',
-};
+  path: '/motorsport',
+});
 
 const capabilityGroups = [
   {

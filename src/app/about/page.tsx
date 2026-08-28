@@ -1,8 +1,8 @@
 import { Cable, Check, Code2, Flag, ShieldCheck } from 'lucide-react';
-import type { Metadata } from 'next';
 import { FinalCTA, PageHero, SectionHeading, SystemGraphic, TechLink } from '../_components/Primitives';
 import { TechnologyOfficeCard } from '../_components/TechnologyOfficeCard';
 import { differentiators, technologyBasePath, technologyImages } from '../_data/site';
+import { createPageMetadata } from '../_data/seo';
 
 const serviceLines = [
   { icon: Cable, number: '01', title: 'Network & Fibre', copy: 'Wired, wireless and fibre infrastructure designed, installed, tested and documented.' },
@@ -11,10 +11,11 @@ const serviceLines = [
   { icon: Flag, number: '04', title: 'Motorsport Technology', copy: 'Circuit connectivity, race operations, video, timing and driver-facing technology.' },
 ];
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: 'About',
   description: 'How Black Opal Technologies plans, delivers and supports infrastructure, security systems and software.',
-};
+  path: '/about',
+});
 
 export default function AboutPage() {
   return (
