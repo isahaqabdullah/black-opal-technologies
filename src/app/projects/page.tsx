@@ -13,8 +13,8 @@ export default function ProjectsPage() {
     <>
       <PageHero
         label="Projects"
-        title="Examples of the problems we help clients solve"
-        description="These representative projects show the kind of operational work we take on across motorsport, infrastructure, software and automation."
+        title="Engineered solutions. Proven in the real world."
+        description="Our work spans software, AI, connected infrastructure, security and motorsport technology—combining specialist expertise with practical engineering to deliver solutions built for demanding real-world environments."
         breadcrumbs={[{ label: 'Projects' }]}
       />
       <section className="tech-section tech-projects-page-section">
